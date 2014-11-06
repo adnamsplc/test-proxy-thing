@@ -1,0 +1,20 @@
+{
+  "name": "test-proxy-thing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js | tap-spec",
+    "start": "node server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.10.1"
+  },
+  "devDependencies": {
+    "request": "^2.47.0",
+    "tap-spec": "^1.0.1",
+    "tape": "^3.0.2"
+  }
+}

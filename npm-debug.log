@@ -1,0 +1,247 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'tapte',
+1 verbose cli   'request',
+1 verbose cli   '--save0dev' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json test-proxy-thing@1.0.0 No description
+6 warn package.json test-proxy-thing@1.0.0 No repository field.
+7 warn package.json test-proxy-thing@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'tapte', null ]
+10 verbose cache add name=undefined spec="tapte" args=["tapte",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'tapte',
+11 verbose parsed url   path: 'tapte',
+11 verbose parsed url   href: 'tapte' }
+12 verbose cache add [ 'request', null ]
+13 verbose cache add name=undefined spec="request" args=["request",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'request',
+14 verbose parsed url   path: 'request',
+14 verbose parsed url   href: 'request' }
+15 silly lockFile 376ed81b-tapte tapte
+16 verbose lock tapte /Users/chris/.npm/376ed81b-tapte.lock
+17 silly lockFile 088e29b0-request request
+18 verbose lock request /Users/chris/.npm/088e29b0-request.lock
+19 silly lockFile 376ed81b-tapte tapte
+20 silly lockFile 376ed81b-tapte tapte
+21 silly lockFile 088e29b0-request request
+22 silly lockFile 088e29b0-request request
+23 verbose addNamed [ 'tapte', '' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile 64809ff2-tapte tapte@
+26 verbose lock tapte@ /Users/chris/.npm/64809ff2-tapte.lock
+27 verbose addNamed [ 'request', '' ]
+28 verbose addNamed [ null, '*' ]
+29 silly lockFile 9d461bcf-request request@
+30 verbose lock request@ /Users/chris/.npm/9d461bcf-request.lock
+31 silly addNameRange { name: 'tapte', range: '*', hasData: false }
+32 verbose request where is /tapte
+33 verbose request registry https://registry.npmjs.org/
+34 verbose request id d5cc47d7fa919d0b
+35 verbose url raw /tapte
+36 verbose url resolving [ 'https://registry.npmjs.org/', './tapte' ]
+37 verbose url resolved https://registry.npmjs.org/tapte
+38 verbose request where is https://registry.npmjs.org/tapte
+39 info trying registry request attempt 1 at 12:38:05
+40 http GET https://registry.npmjs.org/tapte
+41 silly addNameRange { name: 'request', range: '*', hasData: false }
+42 verbose request where is /request
+43 verbose request registry https://registry.npmjs.org/
+44 verbose url raw /request
+45 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+46 verbose url resolved https://registry.npmjs.org/request
+47 verbose request where is https://registry.npmjs.org/request
+48 info trying registry request attempt 1 at 12:38:05
+49 verbose etag "D8UZ32H7H5DL24LY1VM9KEPN3"
+50 http GET https://registry.npmjs.org/request
+51 http 304 https://registry.npmjs.org/request
+52 silly registry.get cb [ 304,
+52 silly registry.get   { date: 'Thu, 06 Nov 2014 12:38:14 GMT',
+52 silly registry.get     server: 'Apache',
+52 silly registry.get     via: '1.1 varnish',
+52 silly registry.get     'last-modified': 'Thu, 06 Nov 2014 12:37:38 GMT',
+52 silly registry.get     'cache-control': 'max-age=60',
+52 silly registry.get     etag: '"D8UZ32H7H5DL24LY1VM9KEPN3"',
+52 silly registry.get     age: '53',
+52 silly registry.get     'x-served-by': 'cache-lcy1132-LCY',
+52 silly registry.get     'x-cache': 'HIT',
+52 silly registry.get     'x-cache-hits': '2',
+52 silly registry.get     'x-timer': 'S1415277494.395475,VS0,VE0',
+52 silly registry.get     vary: 'Accept',
+52 silly registry.get     'content-length': '0',
+52 silly registry.get     'keep-alive': 'timeout=10, max=50',
+52 silly registry.get     connection: 'Keep-Alive' } ]
+53 verbose etag https://registry.npmjs.org/request from cache
+54 silly addNameRange number 2 { name: 'request', range: '*', hasData: true }
+55 silly addNameRange versions [ 'request',
+55 silly addNameRange   [ '0.10.0',
+55 silly addNameRange     '0.8.3',
+55 silly addNameRange     '0.9.0',
+55 silly addNameRange     '0.9.1',
+55 silly addNameRange     '0.9.5',
+55 silly addNameRange     '1.0.0',
+55 silly addNameRange     '1.1.0',
+55 silly addNameRange     '1.1.1',
+55 silly addNameRange     '1.2.0',
+55 silly addNameRange     '1.9.0',
+55 silly addNameRange     '1.9.1',
+55 silly addNameRange     '1.9.2',
+55 silly addNameRange     '1.9.3',
+55 silly addNameRange     '1.9.5',
+55 silly addNameRange     '1.9.7',
+55 silly addNameRange     '1.9.8',
+55 silly addNameRange     '1.9.9',
+55 silly addNameRange     '2.0.0',
+55 silly addNameRange     '2.0.1',
+55 silly addNameRange     '2.0.2',
+55 silly addNameRange     '2.0.3',
+55 silly addNameRange     '2.0.4',
+55 silly addNameRange     '2.0.5',
+55 silly addNameRange     '2.1.0',
+55 silly addNameRange     '2.1.1',
+55 silly addNameRange     '2.2.0',
+55 silly addNameRange     '2.2.5',
+55 silly addNameRange     '2.2.6',
+55 silly addNameRange     '2.2.9',
+55 silly addNameRange     '2.9.0',
+55 silly addNameRange     '2.9.1',
+55 silly addNameRange     '2.9.2',
+55 silly addNameRange     '2.9.3',
+55 silly addNameRange     '2.9.100',
+55 silly addNameRange     '2.9.150',
+55 silly addNameRange     '2.9.151',
+55 silly addNameRange     '2.9.152',
+55 silly addNameRange     '2.9.153',
+55 silly addNameRange     '2.9.200',
+55 silly addNameRange     '2.9.201',
+55 silly addNameRange     '2.9.202',
+55 silly addNameRange     '2.9.203',
+55 silly addNameRange     '2.10.0',
+55 silly addNameRange     '2.11.0',
+55 silly addNameRange     '2.11.1',
+55 silly addNameRange     '2.11.2',
+55 silly addNameRange     '2.11.3',
+55 silly addNameRange     '2.11.4',
+55 silly addNameRange     '2.12.0',
+55 silly addNameRange     '2.14.0',
+55 silly addNameRange     '2.16.0',
+55 silly addNameRange     '2.16.2',
+55 silly addNameRange     '2.16.4',
+55 silly addNameRange     '2.16.6',
+55 silly addNameRange     '2.18.0',
+55 silly addNameRange     '2.19.0',
+55 silly addNameRange     '2.20.0',
+55 silly addNameRange     '2.21.0',
+55 silly addNameRange     '2.22.0',
+55 silly addNameRange     '2.23.0',
+55 silly addNameRange     '2.24.0',
+55 silly addNameRange     '2.25.0',
+55 silly addNameRange     '2.26.0',
+55 silly addNameRange     '2.27.0',
+55 silly addNameRange     '2.28.0',
+55 silly addNameRange     '2.29.0',
+55 silly addNameRange     '2.30.0',
+55 silly addNameRange     '2.31.0',
+55 silly addNameRange     '2.32.0',
+55 silly addNameRange     '2.33.0',
+55 silly addNameRange     '2.34.0',
+55 silly addNameRange     '2.35.0',
+55 silly addNameRange     '2.36.0',
+55 silly addNameRange     '2.37.0',
+55 silly addNameRange     '2.38.0',
+55 silly addNameRange     '2.39.0',
+55 silly addNameRange     '2.40.0',
+55 silly addNameRange     '2.41.0',
+55 silly addNameRange     '2.42.0',
+55 silly addNameRange     '2.43.0',
+55 silly addNameRange     '2.44.0',
+55 silly addNameRange     '2.45.0',
+55 silly addNameRange     '2.46.0',
+55 silly addNameRange     '2.47.0' ] ]
+56 verbose addNamed [ 'request', '2.47.0' ]
+57 verbose addNamed [ '2.47.0', '2.47.0' ]
+58 silly lockFile 6725db09-request-2-47-0 request@2.47.0
+59 verbose lock request@2.47.0 /Users/chris/.npm/6725db09-request-2-47-0.lock
+60 silly lockFile 5a101fd8-s-org-request-request-2-47-0-tgz https://registry.npmjs.org/request/-/request-2.47.0.tgz
+61 verbose lock https://registry.npmjs.org/request/-/request-2.47.0.tgz /Users/chris/.npm/5a101fd8-s-org-request-request-2-47-0-tgz.lock
+62 verbose addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.47.0.tgz',
+62 verbose addRemoteTarball   '09e9fd1a4fed6593a805ef8202b20f0c5ecb485f' ]
+63 info retry fetch attempt 1 at 12:38:14
+64 verbose fetch to= /var/folders/8j/564srscs1455hmzr_4bfqby00000gn/T/npm-64498-U9mmpklM/registry.npmjs.org/request/-/request-2.47.0.tgz
+65 http GET https://registry.npmjs.org/request/-/request-2.47.0.tgz
+66 http 200 https://registry.npmjs.org/request/-/request-2.47.0.tgz
+67 http 404 https://registry.npmjs.org/tapte
+68 verbose headers { date: 'Thu, 06 Nov 2014 12:38:14 GMT',
+68 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+68 verbose headers   'content-type': 'application/json',
+68 verbose headers   'cache-control': 'max-age=0',
+68 verbose headers   'content-length': '52',
+68 verbose headers   'accept-ranges': 'bytes',
+68 verbose headers   via: '1.1 varnish',
+68 verbose headers   age: '0',
+68 verbose headers   'x-served-by': 'cache-lcy1124-LCY',
+68 verbose headers   'x-cache': 'MISS',
+68 verbose headers   'x-cache-hits': '0',
+68 verbose headers   'x-timer': 'S1415277494.397252,VS0,VE97',
+68 verbose headers   'keep-alive': 'timeout=10, max=50',
+68 verbose headers   connection: 'Keep-Alive' }
+69 silly registry.get cb [ 404,
+69 silly registry.get   { date: 'Thu, 06 Nov 2014 12:38:14 GMT',
+69 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+69 silly registry.get     'content-type': 'application/json',
+69 silly registry.get     'cache-control': 'max-age=0',
+69 silly registry.get     'content-length': '52',
+69 silly registry.get     'accept-ranges': 'bytes',
+69 silly registry.get     via: '1.1 varnish',
+69 silly registry.get     age: '0',
+69 silly registry.get     'x-served-by': 'cache-lcy1124-LCY',
+69 silly registry.get     'x-cache': 'MISS',
+69 silly registry.get     'x-cache-hits': '0',
+69 silly registry.get     'x-timer': 'S1415277494.397252,VS0,VE97',
+69 silly registry.get     'keep-alive': 'timeout=10, max=50',
+69 silly registry.get     connection: 'Keep-Alive' } ]
+70 silly lockFile 64809ff2-tapte tapte@
+71 silly lockFile 64809ff2-tapte tapte@
+72 silly lockFile 5a101fd8-s-org-request-request-2-47-0-tgz https://registry.npmjs.org/request/-/request-2.47.0.tgz
+73 silly lockFile 5a101fd8-s-org-request-request-2-47-0-tgz https://registry.npmjs.org/request/-/request-2.47.0.tgz
+74 silly lockFile 6725db09-request-2-47-0 request@2.47.0
+75 silly lockFile 6725db09-request-2-47-0 request@2.47.0
+76 silly lockFile 9d461bcf-request request@
+77 silly lockFile 9d461bcf-request request@
+78 error 404 404 Not Found: tapte
+78 error 404
+78 error 404 'tapte' is not in the npm registry.
+78 error 404 You should bug the author to publish it
+78 error 404 It was specified as a dependency of 'test-proxy-thing'
+78 error 404
+78 error 404 Note that you can also install from a
+78 error 404 tarball, folder, or http url, or git url.
+79 error System Darwin 13.4.0
+80 error command "/usr/local/bin/node" "/usr/local/bin/npm" "i" "tapte" "request" "--save0dev"
+81 error cwd /Users/chris/NetBeansProjects/playground/javascript-exercises/test-proxy-thing
+82 error node -v v0.10.33
+83 error npm -v 1.4.28
+84 error code E404
+85 verbose exit [ 1, true ]
